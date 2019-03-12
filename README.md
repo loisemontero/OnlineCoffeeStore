@@ -11,6 +11,8 @@ number, etc.
 After they submit the form, the information is sent to the coffee_display.php file.
 The information is then displayed (also includes the calculated total cost of the order) in a table. 
 
+The program will display any errors from user input.
+
 ## Tools
 HTML
 CSS
