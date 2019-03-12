@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Online Coffee Store</title>
+</head>
+<!---
+	Assignment: Online Coffee Store
+	File Name: user_input.html
+	Description:
+	The form will take the user's info
+	and send it to coffee_dislay.php.
+	Author: Loise Montero
+	Date: 3/11/2019
+--->
+<body>
+	<h1>The Coffee House</h1>
+	<h3>Order Form</h3>
+	<form method="post" name="form" action="coffee_display.php">
+		<table>
+			<tr>
+				<td>Coffee:</td>
+				<td><select name="coffee">
+					<option value="select">Select Coffee:</option>
+					<option value="Boca">Boca Villa</option>
+					<option value="South">South Beach Rhythm</option>
+					<option value="Pumpkin">Pumpkin Paradise</option>
+					<option value="Sumatran">Sumatran Sunset</option>
+					<option value="Bali">Bali Batur</option>
+					<option value="Double">Double Dark</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Type:</td>
+				<td><input type="radio" name="types" value="Reg">Regular<br>
+					<input type="radio" name="types" value="Decaff">Decaffeinated</td>
+			</tr>
+			<tr>
+				<td>Quantity(in pounds):</td>
+				<td><input type="text" name="qty" size="3"></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>E-mail address:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Telephone#:</td>
+				<td><input type="text" name="tele" size="12"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td id="first"><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input type="text" name="state" size="2"></td>
+			</tr>
+			<tr>
+				<td>Zip:</td>
+				<td><input type="text" name="zip" size="10"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Submit"></td>
+				<td><input type="reset" name="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
